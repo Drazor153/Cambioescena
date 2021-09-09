@@ -19,7 +19,7 @@ class Director:
     
     def inicio(self):
         self.scene.on_event()
-        self.change_scene(self.scenes[1])
+        self.change_scene(self.scenes[0])
 
     def loop(self, scene_menu, scene_juego):
         "Pone en funcionamiento el juego."
