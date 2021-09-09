@@ -28,7 +28,7 @@ class Menu(scene.Scene):
     class b_Menu(pygame.sprite.Sprite):
         def __init__(self):
             pygame.sprite.Sprite.__init__(self)
-            self.image = load_image("menu.png")
+            self.image = load_image("menu.png", True)
             self.rect = self.image.get_rect()
             self.rect.centerx = WIDTH/2
             self.rect.centery = HEIGHT/2
